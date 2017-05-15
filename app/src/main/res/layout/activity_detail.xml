@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:id="@+id/activity_main"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/judul"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:text="DETAIL"
+        android:layout_margin="0dp"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tampil_id"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Id"
+        android:layout_margin="0dp"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:layout_gravity="left"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tampil_nama"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Nama"
+        android:layout_margin="0dp"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:layout_gravity="left"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tampil_kelas"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Kelas"
+        android:layout_margin="0dp"
+        android:fontFamily="casual"
+        android:textSize="25dp"
+        android:layout_gravity="left"
+
+        />
+
+
+</LinearLayout>
